@@ -16,7 +16,7 @@ body = STDIN.gets.encode('UTF-8').chomp
 
 Pony.mail(
 {
-	:subject => "Привет из руби!",
+	:subject => "Привет!",
 	:body => body,
 	:to => send_to,
 	:from => my_mail,
